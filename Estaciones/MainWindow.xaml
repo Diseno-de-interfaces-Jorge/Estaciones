@@ -25,26 +25,25 @@
                     <GradientStop Color="#FFFFC500" Offset="1"/>
                 </LinearGradientBrush>
             </TextBlock.Foreground>Las 4 estaciones</TextBlock>
-    <UniformGrid>
-        
-        <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <Image Source="/Assets/invierno.jpg" />
-        </ScrollViewer>
+        <UniformGrid>
+            <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <Image Source="/Assets/invierno.jpg" />
+            </ScrollViewer>
 
 
-        <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <Image Source="/Assets/primavera.jpg" />
-        </ScrollViewer>
+            <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <Image Source="/Assets/primavera.jpg" />
+            </ScrollViewer>
 
 
-         <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <Image Source="/Assets/verano.jpg" />
-        </ScrollViewer>
+            <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <Image Source="/Assets/verano.jpg" />
+            </ScrollViewer>
 
 
-         <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <Image Source="/Assets/otoño.jpg" />
-        </ScrollViewer>        
-    </UniformGrid>
+            <ScrollViewer Margin="10" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <Image Source="/Assets/otoño.jpg" />
+            </ScrollViewer>
+        </UniformGrid>
     </DockPanel>
 </Window>
